@@ -1,0 +1,51 @@
+2022-11-03 15:36:00,673 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="5sz27t-z24xnq-1damud-co5br" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a7e491438b9a99243073e385b042ef2 
+2022-11-03 15:36:10,866 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: :nav-search-label-id (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 15:37:19,214 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="3b5s0i-6m9itt-x5yf9y-keg9ta" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d29dfa93f7243db5e25bc6a0a80a990 
+2022-11-03 15:37:29,424 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: :nav-search-label-id (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 15:37:51,313 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="vlnyo-unnloi-rodntu-2j0yyg" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b709a3add7558249da5aaf249a51075c 
+2022-11-03 15:37:53,834 ERROR [Log] amazonTest() FAILED with cause : 
+Expecting:
+ <""msi"">
+to be equal to:
+ <"msi">
+but was not. 
+2022-11-03 15:38:25,673 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="z5bjp6-x8dzzp-1nppt4-y8jsa6" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5848bbc52e9a21d85765b1649f53141 
+2022-11-03 15:38:29,234 ERROR [Log] amazonTest() FAILED with cause : element click intercepted: Element <a href="/s?k=msi&amp;i=computers&amp;page=...&amp;__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1WDLQB3G7C2UM&amp;qid=1667479108&amp;sprefix=%2Ccomputers%2C577&amp;ref=sr_pg_2" aria-label="2 sayfasına git" class="s-pagination-item s-pagination-button">2</a> is not clickable at point (869, 684). Other element would receive the click: <form id="sp-cc" method="post" action="/privacyprefs/retail/v1/acceptall">...</form>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5848bbc52e9a21d85765b1649f53141 
+2022-11-03 15:41:15,635 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="h629od-tnjn4w-p11td1-y2qhyj" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5870938c41a5d7f1c77962ba1fe9da35 
+2022-11-03 15:41:16,647 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
