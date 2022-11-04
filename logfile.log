@@ -619,3 +619,21 @@ Session ID: 3fd344e8408beac22aa8c7740f17984c
 2022-11-04 13:29:42,472 INFO  [Log] Ürün Sepete Eklendi 
 2022-11-04 13:29:43,791 INFO  [Log] Hesaptan Çıkış Yapıldı 
 2022-11-04 13:29:43,829 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:34:06,839 INFO  [Log] Amazon.com Sayfasına Giriş Yapıldı 
+2022-11-04 13:34:07,923 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="oi94qq-clxfc4-82d2cx-o8944x" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c51fd87317f53422f98761542bf04dd8 
+2022-11-04 13:34:07,923 INFO  [Log] Çerezler Kabul Edildi. 
+2022-11-04 13:34:08,579 INFO  [Log] Login İşlemine Gidildi 
+2022-11-04 13:34:11,546 INFO  [Log] Hesaba Giriş Yapıldı ve Kontrol Sağlandı 
+2022-11-04 13:34:11,771 INFO  [Log] Category:Bilgisayarlarseçildi 
+2022-11-04 13:34:13,434 INFO  [Log] Ürün: MSI araması yapıldı 
+2022-11-04 13:34:14,842 INFO  [Log] Sayfaya Gidildi:2 
+2022-11-04 13:34:18,871 INFO  [Log] 1.element seçildi 
+2022-11-04 13:34:19,893 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-04 13:34:20,972 INFO  [Log] Hesaptan Çıkış Yapıldı 
+2022-11-04 13:34:21,004 INFO  [Log] amazonTest() PASSED 

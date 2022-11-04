@@ -34,6 +34,8 @@ public class HomePage extends BasePage {
         navigateToUrl(configReader.getProperty("base_url"));
         checkForUrl(configReader.getProperty("base_url"));
         log.info("Amazon.com Sayfasına Giriş Yapıldı");
+        clickToElement(cookieButton);
+        log.info("Çerezler Kabul Edildi.");
     }
 
     public void navigateToLogIn() {
@@ -49,7 +51,7 @@ public class HomePage extends BasePage {
     public void chooseCategory(String categoryName) {
         clickToElement(categoryDropdown);
         getDropdownItem(categoryDropdownItem, categoryName);
-        log.info("Category:" + categoryName + "seçildi");
+        log.info("Kategori: " + categoryName + "seçildi");
     }
 
     public void searchForProduct(String productName) {
@@ -79,8 +81,6 @@ public class HomePage extends BasePage {
     public void checkForLogin() {
         elementIsDisplayed(userNameText);
         log.info("Hesaba Giriş Yapıldı ve Kontrol Sağlandı");
-        clickToElement(cookieButton);
-        log.info("Çerezler Kabul Edildi.");
 
     }
 }
