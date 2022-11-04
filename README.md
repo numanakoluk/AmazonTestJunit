@@ -9,7 +9,7 @@
 2. [+] **Kullanıcı Amazon.com sitesini Ziyaret Eder.**
 3. [+] **Kullanıcı Giriş İşlemi Yapılır(Gmail ile).**
 4. [+] **Yönlendirmeden sonra anasayfada kullanıcı giriş işleminin yapıldığı doğrulanır.**
-5. [+] **Kullanıcı Listbox'tan Kategori araaması gerçekleştirir **
+5. [+] **Kullanıcı Listbox'tan Kategori araaması gerçekleştirir.**
 6. [+] **Kullanıcı Ürün araması yapar.**
 7. [+] **Kullanıcı Ürün seçer ve sepete ekler.**
 7. [+] **Kullanıcı çıkış işlemini gerçekleştirir.**
