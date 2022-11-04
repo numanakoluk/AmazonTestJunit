@@ -23,9 +23,7 @@ public class BaseTest {
 
         if (configReader.getProperty("web_driver").equals("chrome")) {
             WebDriverManager.chromedriver().setup();
-
             ChromeOptions options = new ChromeOptions();
-
             driver = new ChromeDriver(options);
             //driver.get(configReader.getProperty("base_url"));
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

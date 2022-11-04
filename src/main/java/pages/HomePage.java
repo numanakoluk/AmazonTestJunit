@@ -10,6 +10,7 @@ public class HomePage extends BasePage {
 
     ConfigReader configReader;
 
+
     By searchInput=By.id("twotabsearchtextbox");
     By searchButton=By.id("nav-search-submit-button");
     By cookieButton=By.xpath("//*[@id='a-autoid-0-announce']");
@@ -32,44 +33,54 @@ public class HomePage extends BasePage {
         configReader = new ConfigReader("config");
         navigateToUrl(configReader.getProperty("base_url"));
         checkForUrl(configReader.getProperty("base_url"));
-        clickToElement(cookieButton);
+        log.info("Amazon.com Sayfasına Giriş Yapıldı");
     }
 
     public void navigateToLogIn() {
         clickToElement(loginNavigation);
+        log.info("Login İşlemine Gidildi");
     }
 
     public void navigateToList() {
         hoverElement(accountNavigation);
-        clickToElement(listNavigation);
+        //clickToElement(listNavigation);
     }
 
     public void chooseCategory(String categoryName) {
         clickToElement(categoryDropdown);
         getDropdownItem(categoryDropdownItem, categoryName);
+        log.info("Category:" + categoryName + "seçildi");
     }
 
     public void searchForProduct(String productName) {
         clickToElement(searchInput);
         sendKeysToElement(searchInput, productName);
         clickToElement(searchButton);
+        log.info("Ürün: "  + productName+ " araması yapıldı");
     }
 
     public void selectPageFromPagination(String pageNumber) {
         driver.findElement(By.xpath("//*[@aria-label='" + pageNumber + " sayfasına git']")).click();
         assertThat(getTextFromElement(searchSelectedPage)).isEqualTo(pageNumber);
+        log.info("Sayfaya Gidildi:" + pageNumber);
     }
 
     public void selectProductFromSearchList(String index) {
         driver.findElement(By.xpath("//*[@data-index='" + index + "']")).click();
+        log.info(index+".element seçildi");
     }
 
     public void logout() {
         hoverElement(accountNavigation);
         clickToElement(logoutNavigation);
+        log.info("Hesaptan Çıkış Yapıldı");
     }
 
     public void checkForLogin() {
         elementIsDisplayed(userNameText);
+        log.info("Hesaba Giriş Yapıldı ve Kontrol Sağlandı");
+        clickToElement(cookieButton);
+        log.info("Çerezler Kabul Edildi.");
+
     }
 }

@@ -5,9 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ProductPage extends BasePage {
     By idInput = By.xpath("//*[@name='sourceCustomerOrgListID']");
-    By addToListButton = By.xpath("//*[@title='Listeye Ekle']");
-    By listLink = By.id("huc-list-link");
-    By modalCloseButton = By.xpath("//*[@class='a-button-close a-button-close-a11y a-declarative']");
+    By addToListButton = By.xpath("//input[@title='Alışveriş Sepetine Ekle']");
 
     public ProductPage(WebDriver driver) {
         super(driver);
@@ -16,9 +14,10 @@ public class ProductPage extends BasePage {
     public static String productId;
 
     public void addProductToList() {
+        waitForSecond(2);
         productId = getAttributeFromElement(idInput, "value");
         clickToElement(addToListButton);
-        elementIsDisplayed(listLink);
-        clickToElement(modalCloseButton);
+        log.info("Ürün Sepete Eklendi");
+        waitForSecond(2);
     }
 }

@@ -49,3 +49,573 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 5870938c41a5d7f1c77962ba1fe9da35 
 2022-11-03 15:41:16,647 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:09:24,965 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="aisi6p-xqcf0a-j2iss3-qm0u6d" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63102}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18493e97870584acdf71b0fbe425dbc8 
+2022-11-03 18:09:25,980 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:11:34,791 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="cuq1sm-khxq2i-xhdovx-ldp9fr" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0efbe6ceb2095988df31a087a33b8e8b 
+2022-11-03 18:11:35,391 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:14:22,233 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="nv6jqw-e9tbwp-p6phfj-ra6byx" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69a08592a901b65f08648517958a9dbe 
+2022-11-03 18:14:23,358 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:16:11,857 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="cffinh-899vqv-y2l66x-3u2h1x" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63318}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9de40277bf2629b6602a9e8f2aa358b1 
+2022-11-03 18:16:12,804 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:21:17,082 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d8303504dd1660105db4dd8e3df7575f 
+2022-11-03 18:21:18,361 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:22:49,064 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="s6lh60-6dp8aa-s5xjjh-flkajt" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8392e61b7783b805bc1913c8425a856e 
+2022-11-03 18:22:49,844 ERROR [Log] amazonTest() FAILED with cause : Cannot invoke "pages.LoginPage.login()" because "this.loginPage" is null 
+2022-11-03 18:25:46,119 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24e3e59d06021cd3a49cb7e8e40f836 
+2022-11-03 18:25:46,677 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:25:46,677 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:25:46,677 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:25:46,677 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:25:56,703 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: nav-link-accountList-nav-line-1 (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:26:43,151 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 70aa3acef38d2e76c1f335127d7878fc 
+2022-11-03 18:26:43,823 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:26:43,823 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:26:43,823 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:26:43,823 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:26:53,832 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: nav-search-dropdown-card (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:27:03,851 INFO  [Log] BilgisayarlarItem is not found or selected!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='searchDropdownBox'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:27:13,908 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: twotabsearchtextbox (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:27:23,956 INFO  [Log] Send keys action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: twotabsearchtextbox (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:29:32,373 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f8ee186251cac5e8103d741b4b7963e 
+2022-11-03 18:29:33,572 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:29:33,572 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:29:33,572 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:29:33,572 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:29:43,586 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: nav-search-dropdown-card (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:29:53,875 INFO  [Log] BilgisayarlarItem is not found or selected!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='searchDropdownBox'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:30:55,215 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="8dxq62-x4t1m9-av0ejg-46kytd" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 559d41920990a287f9d8d9bd537af7fc 
+2022-11-03 18:30:56,104 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:30:56,104 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:30:56,104 INFO  [Log] Send keys action does not work!java.lang.NullPointerException 
+2022-11-03 18:30:56,104 INFO  [Log] Click action does not work!java.lang.NullPointerException 
+2022-11-03 18:31:06,145 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: nav-link-accountList-nav-line-1 (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:32:02,167 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="jz12sc-62h7xm-a9wmj5-vs93ly" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e953334a0d61781fb6aaf8424efd64e4 
+2022-11-03 18:32:13,660 INFO  [Log] Send keys action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ap_password (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:32:23,679 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: signInSubmit (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 18:32:33,719 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: nav-link-accountList-nav-line-1 (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:17:11,928 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="jtemen-iusxsb-um0uzb-g15pzr" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 062e9ed711eb48941ba36c0e30b83d52 
+2022-11-03 19:17:22,964 INFO  [Log] Send keys action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: #ap_password (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:17:32,976 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: signInSubmit (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:17:43,155 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: nav-link-accountList-nav-line-1 (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:18:20,858 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="o6cigy-xy7j8b-kx2fqt-id350b" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a8527f255ecb8672456c4de4654c7b2 
+2022-11-03 19:24:17,977 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="d8g40i-rk715i-56uegu-e7tunu" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 36da207be4b5db58fffc7bdc8d5658a6 
+2022-11-03 19:24:25,375 ERROR [Log] amazonTest() FAILED with cause : element click intercepted: Element <a href="/s?k=msi&amp;i=computers&amp;page=...&amp;__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=208EY3NAXHHG2&amp;qid=1667492662&amp;sprefix=%2Ccomputers%2C121&amp;ref=sr_pg_2" aria-label="2 sayfasına git" class="s-pagination-item s-pagination-button">2</a> is not clickable at point (869, 684). Other element would receive the click: <form id="sp-cc" method="post" action="/privacyprefs/retail/v1/acceptall">...</form>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 36da207be4b5db58fffc7bdc8d5658a6 
+2022-11-03 19:29:05,456 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="zcyd50-e4nll8-m8h3jv-1243wi" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c073520a500cc7e46e4202c70f1f3788 
+2022-11-03 19:29:12,937 ERROR [Log] amazonTest() FAILED with cause : element click intercepted: Element <a href="/s?k=msi&amp;i=computers&amp;page=...&amp;__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=3TG8LNAHNXFV9&amp;qid=1667492950&amp;sprefix=%2Ccomputers%2C111&amp;ref=sr_pg_2" aria-label="2 sayfasına git" class="s-pagination-item s-pagination-button">2</a> is not clickable at point (869, 684). Other element would receive the click: <form id="sp-cc" method="post" action="/privacyprefs/retail/v1/acceptall">...</form>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c073520a500cc7e46e4202c70f1f3788 
+2022-11-03 19:33:03,734 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="2o6a60-4isr5q-27ifur-u298ft" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e931948320b3bba7b8b3e43025c91fd 
+2022-11-03 19:33:21,452 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:34:02,704 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:02,706 INFO  [Log] Send keys action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:02,708 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:02,710 INFO  [Log] Send keys action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:02,711 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:02,717 ERROR [Log] amazonTest() FAILED with cause : java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:17681
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:34:18,111 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Hesap ve Listeler'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:36:41,175 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:36:41,202 INFO  [Log] Send keys action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:36:41,204 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:36:41,205 INFO  [Log] Send keys action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:36:41,206 INFO  [Log] Click action does not work!org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:36:41,237 ERROR [Log] amazonTest() FAILED with cause : java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:43521
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: driver.version: RemoteWebDriver 
+2022-11-03 19:37:34,090 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="2qq5jw-t7529y-kqfdjq-f69usq" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e969d617800c093027e2a96347cae3ac 
+2022-11-03 19:37:47,590 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:38:07,613 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: huc-list-link (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:39:38,420 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e81bfa6bdf0cf6d62ba37c48ba6e11f6 
+2022-11-03 19:39:50,711 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:40:08,021 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: huc-list-link (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:43:41,897 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="adm5a5-uqwkq2-vehi7q-6we4tt" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1322386644744b1cf20d4bfbdcffdc38 
+2022-11-03 19:43:56,320 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:44:18,447 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='a-button-close a-button-close-a11y a-declarative'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:44:28,634 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:44:38,671 ERROR [Log] amazonTest() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-id='']//input[@name='submit.deleteItem']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1322386644744b1cf20d4bfbdcffdc38
+*** Element info: {Using=xpath, value=//li[@data-id='']//input[@name='submit.deleteItem']} 
+2022-11-03 19:45:21,959 INFO  [Log] Click action does not work!org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99a4581d954f9368f447913b714cd749 
+2022-11-03 19:45:37,474 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:45:54,365 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='a-button-close a-button-close-a11y a-declarative'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:46:04,578 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 19:46:14,652 ERROR [Log] amazonTest() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-id='']//input[@name='submit.deleteItem']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:62037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99a4581d954f9368f447913b714cd749
+*** Element info: {Using=xpath, value=//li[@data-id='']//input[@name='submit.deleteItem']} 
+2022-11-03 20:26:18,709 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="jo4nq8-9z4rfm-psvw51-ne0vxn" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:63896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b20e188bdc3f1ba61f49573b0f7e131 
+2022-11-03 20:26:32,263 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:26:52,469 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: list-name (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:27:20,368 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="4r8hkx-ec4fzu-ddjqhm-l6yuzj" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2454e66173f41d6b5df4c936c779b72 
+2022-11-03 20:27:34,550 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:27:48,198 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:28:17,943 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="q7waa4-ymze2y-p2lpmb-o02y3j" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bf0ef6c2319e5d2c696605e3b88b67c 
+2022-11-03 20:28:32,396 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:28:49,720 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:28:59,789 ERROR [Log] amazonTest() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-id='']//input[@name='submit.deleteItem']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bf0ef6c2319e5d2c696605e3b88b67c
+*** Element info: {Using=xpath, value=//li[@data-id='']//input[@name='submit.deleteItem']} 
+2022-11-03 20:32:48,743 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="a3ynhi-jz30pb-d343fq-r82lnb" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43876e30186b75e751b6c2e067bb0eaa 
+2022-11-03 20:33:07,171 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:33:20,474 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:33:28,827 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="ogx4hi-e5r3yk-jkqopy-imtcpe" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a5701d77efcc4ffcc429a7ee283f8b 
+2022-11-03 20:33:47,202 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:34:01,628 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true">...</span> is not clickable at point (1080, 285). Other element would receive the click: <input class="a-button-input" type="submit">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a5701d77efcc4ffcc429a7ee283f8b 
+2022-11-03 20:34:11,805 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:34:21,849 ERROR [Log] amazonTest() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-id='']//input[@name='submit.deleteItem']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a5701d77efcc4ffcc429a7ee283f8b
+*** Element info: {Using=xpath, value=//li[@data-id='']//input[@name='submit.deleteItem']} 
+2022-11-03 20:34:53,249 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="rowa8q-d77zr6-bb1s1k-yaemf9" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94ad0bafee49cedfab52ab757b5cabbc 
+2022-11-03 20:35:06,638 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:35:19,507 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:35:29,407 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="7p1wsq-xw9ooe-41tq72-la33pr" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da372daa928c7839ef85f7d5f8aecf8a 
+2022-11-03 20:35:47,285 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:36:03,453 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true">...</span> is not clickable at point (1080, 265). Other element would receive the click: <input class="a-button-input" type="submit">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da372daa928c7839ef85f7d5f8aecf8a 
+2022-11-03 20:36:13,658 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 20:36:23,827 INFO  [Log] Click action does not work!org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da372daa928c7839ef85f7d5f8aecf8a 
+2022-11-03 20:36:33,846 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: ap_email (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:27:19,185 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="wg93dp-nrmkii-huf6wz-b7uxdy" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0223043c25818e8aac257b6893065591 
+2022-11-03 21:27:33,560 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:27:46,825 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:27:59,559 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="b77oui-wica3a-hm6doj-qk0uuj" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51969}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10828a1e333d892dd7d9f05b200aa56d 
+2022-11-03 21:28:12,990 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:28:26,708 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:31:09,428 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="9bc50s-a5tllw-18t6v6-c78vti" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51e4fa6289d8a7ef5f6da8820c64dbd7 
+2022-11-03 21:31:22,795 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:31:42,756 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='a-button-close a-button-close-a11y a-declarative'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:31:52,929 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:32:03,117 INFO  [Log] Click action does not work!org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51e4fa6289d8a7ef5f6da8820c64dbd7 
+2022-11-03 21:37:59,858 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="6hy98e-mjwtqm-gll2wt-bpaetd" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87126918d163b4b0b57aab64ba0e31be 
+2022-11-03 21:38:13,068 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:38:32,066 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: xpath://*[contains(text(), 'Alışverişe devam et')] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:38:53,939 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a8b968ace7a493de86457a8b3183198 
+2022-11-03 21:39:06,639 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:39:33,498 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: xpath://*[contains(text(), 'Alışverişe devam et')] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:39:43,547 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='a-button-close a-button-close-a11y a-declarative'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:39:53,731 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:40:03,917 INFO  [Log] Click action does not work!org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a8b968ace7a493de86457a8b3183198 
+2022-11-03 21:40:13,949 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: ap_email (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:40:52,675 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b19b44855e62838e725a16ad9aeca0f6 
+2022-11-03 21:41:04,855 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:41:14,111 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-54-announce">...</span> is not clickable at point (1080, 285). Other element would receive the click: <input class="a-button-input" type="submit" aria-labelledby="a-autoid-54-announce">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b19b44855e62838e725a16ad9aeca0f6 
+2022-11-03 21:41:24,144 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='a-button-close a-button-close-a11y a-declarative'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:41:34,300 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:41:44,494 INFO  [Log] Click action does not work!org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b19b44855e62838e725a16ad9aeca0f6 
+2022-11-03 21:41:54,524 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.id: ap_email (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:44:12,611 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 823861375e4a018c933e43d4ec881574 
+2022-11-03 21:44:25,340 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:44:35,331 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true">...</span> is not clickable at point (1080, 265). Other element would receive the click: <input class="a-button-input" type="submit">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53405}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 823861375e4a018c933e43d4ec881574 
+2022-11-03 21:44:45,506 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-03 21:44:46,593 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:08:03,809 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="a9vcwm-jyktnx-h1yzwi-6snvw9" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b01c6adf65cd90e6d2cb9e0a591e75fc 
+2022-11-04 13:08:17,882 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:08:38,833 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[contains(text(), 'Alışverişe devam et')] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:08:49,043 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:08:50,085 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:11:15,966 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="qfygs7-u14j49-8brioq-yewwt7" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: decf5ce9a6c67f36d6f3c8944517a117 
+2022-11-04 13:11:30,047 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:11:44,370 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:12:44,076 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="qa51x1-kxin3s-351s8t-c5xuqf" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9126eee83d1f8b4a40dc5de50e5373ff 
+2022-11-04 13:12:57,777 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:13:10,844 ERROR [Log] amazonTest() FAILED with cause : Expected condition failed: waiting for presence of element located by: By.xpath: //*[@name='sourceCustomerOrgListID'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:13:42,937 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="tw90fp-5r6udt-qmoyf7-dk84y0" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bea609d4a5522ca8973caa4fef6168ae 
+2022-11-04 13:13:57,042 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:14:19,135 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:14:20,109 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:19:07,130 INFO  [Log] Click action does not work!org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:54595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 141633faec06c9c5da4462bb17a588da 
+2022-11-04 13:19:07,130 INFO  [Log] Ana Sayfa Açıldı 
+2022-11-04 13:19:07,684 INFO  [Log] Ana Sayfa Kapatıldı 
+2022-11-04 13:19:19,432 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:19:19,433 INFO  [Log] Hesaba Giriş Yapıldı 
+2022-11-04 13:19:22,155 INFO  [Log] Sayfaya Gidildi:2 
+2022-11-04 13:19:22,206 INFO  [Log] 1.element seçildi 
+2022-11-04 13:19:45,522 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='nav-text'][text()='Favori Listem'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:19:46,395 INFO  [Log] Hesaptan Çıkış Yapıldı 
+2022-11-04 13:19:46,430 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:26:27,653 INFO  [Log] Click action does not work!org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 509). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="ub4qvp-vyio1s-3i3yl6-v2jzds" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DPB315I', ip: '192.168.90.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\nMn\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fd344e8408beac22aa8c7740f17984c 
+2022-11-04 13:26:27,653 INFO  [Log] Amazon.com Sayfasına Giriş Yapıldı 
+2022-11-04 13:26:28,777 INFO  [Log] Login İşlemine Gidildi 
+2022-11-04 13:26:42,305 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:26:42,305 INFO  [Log] Hesaba Giriş Yapıldı 
+2022-11-04 13:26:42,488 INFO  [Log] Category:Bilgisayarlarseçildi 
+2022-11-04 13:26:45,070 INFO  [Log] Ürün: MSI araması yapıldı 
+2022-11-04 13:26:46,401 INFO  [Log] Sayfaya Gidildi:2 
+2022-11-04 13:26:51,693 INFO  [Log] 1.element seçildi 
+2022-11-04 13:26:54,394 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-04 13:26:55,786 INFO  [Log] Hesaptan Çıkış Yapıldı 
+2022-11-04 13:26:55,823 INFO  [Log] amazonTest() PASSED 
+2022-11-04 13:29:18,862 INFO  [Log] Amazon.com Sayfasına Giriş Yapıldı 
+2022-11-04 13:29:19,566 INFO  [Log] Login İşlemine Gidildi 
+2022-11-04 13:29:22,140 INFO  [Log] Hesaba Giriş Yapıldı ve Kontrol Sağlandı 
+2022-11-04 13:29:32,157 INFO  [Log] Click action does not work!org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@id='a-autoid-0-announce'] (tried for 10 second(s) with 500 milliseconds interval) 
+2022-11-04 13:29:32,157 INFO  [Log] Çerezler Kabul Edildi. 
+2022-11-04 13:29:32,378 INFO  [Log] Category:Bilgisayarlarseçildi 
+2022-11-04 13:29:34,047 INFO  [Log] Ürün: MSI araması yapıldı 
+2022-11-04 13:29:34,992 INFO  [Log] Sayfaya Gidildi:2 
+2022-11-04 13:29:40,578 INFO  [Log] 1.element seçildi 
+2022-11-04 13:29:42,472 INFO  [Log] Ürün Sepete Eklendi 
+2022-11-04 13:29:43,791 INFO  [Log] Hesaptan Çıkış Yapıldı 
+2022-11-04 13:29:43,829 INFO  [Log] amazonTest() PASSED 
